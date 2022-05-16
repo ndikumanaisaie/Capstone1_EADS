@@ -21,17 +21,28 @@ body {
   display: none;
 }
 
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.logo {
+  color: white;
+}
+
 #hamburger-icon {
   margin: auto 0;
   cursor: pointer;
   font-size: 32px;
-  color: gray;
+  color: rgb(255, 255, 255);
 }
 
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: rgb(170, 170, 170);
+  background-color: rgb(255, 255, 255);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -61,16 +72,17 @@ body {
   display: none;
   list-style-type: none;
   position: absolute;
-  top: 0;
+  top: 30px;
   right: 0;
   height: 100vh;
-  width: 60vw;
+  width: 100vw;
   background-color: rgb(96, 112, 255);
   opacity: 0.9;
 }
 
 .mobile-menu li {
-  text-align: left;
+  margin-right: 20px;
+  text-align: center;
   width: 100vw;
   border-bottom: 1px solid rgb(254, 254, 254);
 }
