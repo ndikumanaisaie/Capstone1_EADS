@@ -1,15 +1,19 @@
 /* stylelint-disable no-descending-specificity */
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
   text-decoration: none;
   list-style: none;
-  color: #272a31;
+  color: rgb(0, 0, 0);
 }
 
 html {
   font-size: 50%;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 body {
@@ -25,7 +29,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: grey;
+  background-color: rgb(128, 128, 128);
 }
 
 .logo {
@@ -76,7 +80,7 @@ body {
   right: 0;
   height: 100vh;
   width: 100vw;
-  background-color: rgb(96, 112, 255);
+  background-color: rgb(128, 128, 128);
   opacity: 0.9;
 }
 
@@ -96,6 +100,11 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: rgb(255, 255, 255);
+}
+
+.speaker-img {
+  height: 120px;
+  width: 140px;
 }
 
 @media only screen and (min-width: 768px) {
