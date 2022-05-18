@@ -15,7 +15,7 @@
 - github flow
 
 ## Live Demo
-- Capstone1: [ndikumana isaie]( https://ndikumanaisaie.github.io/Capstone-Project1/)
+- Capstone1: [EAC Developer summit]( https://ndikumanaisaie.github.io/Capstone-Project1/)
 
 ## Authors
 
