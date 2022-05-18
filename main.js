@@ -10,7 +10,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/Yinka-Adegoke.jpg',
+    image: './images/speakers/Linka adegoke.png',
   },
 
   {
@@ -28,7 +28,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/Georgies mgobe.jpg',
+    image: './images/speakers/George mgobe.png',
   },
 
   {
@@ -37,25 +37,25 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/daniel.jpg',
+    image: './images/speakers/daniel.png',
   },
 
   {
     id: 4,
-    sp_name: 'prof muyunga',
+    sp_name: 'Kayode Yusuf',
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/prof muyunga.jpg',
+    image: './images/speakers/kayode yusuf.png',
   },
 
   {
     id: 5,
-    sp_name: 'Tim-Berners-Lee',
+    sp_name: 'Prof Muyunga',
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/Tim-Berners-Lee.webp',
+    image: './images/speakers/prof muyunga.png',
   },
 ];
 
@@ -66,7 +66,9 @@ let speakerCard = '';
 for (let j = 0; j < speaker.length; j += 1) {
   speakerCard += `
   <div class="day-speakers" id="day-speaker">
-  <img src="${speaker[j].image}" alt="speaker1" class="speaker-img">
+  <div class="sp-img">
+    <img src="${speaker[j].image}" alt="speaker1" class="speaker-img">
+  </div>
   <div class="speaker-bio">
     <h3 class="sp-name">${speaker[j].sp_name}</h3>
     <p class="who">${speaker[j].who}</p>
