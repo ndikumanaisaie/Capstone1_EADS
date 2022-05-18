@@ -13,16 +13,75 @@
 
 html {
   font-size: 50%;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: Lato, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: rgb(222, 222, 222);
 }
 
 .hide-on-sm {
   display: none;
+}
+
+.main {
+  background: url("./images/bg/bd-image1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.bg-color {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: cover;
+}
+
+.text-red {
+  margin-top: 56px;
+  margin-bottom: 40px;
+}
+
+.text-red .hallo {
+  color: rgb(236, 82, 66);
+  font-size: 26px;
+  font-family: 'COCOGOOSE', sans-serif;
+  line-height: 30px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.text-red .h1 {
+  color: rgb(236, 82, 66);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'COCOGOOSE', sans-serif;
+  letter-spacing: 2px;
+  line-height: 48px;
+}
+
+.intro,
+.rv,
+.place {
+  color: rgb(39, 42, 49);
+  font-size: 16px;
+}
+
+.intro {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 4px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.rv {
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.home {
+  margin-bottom: 82px;
 }
 
 .head-container {
@@ -30,23 +89,33 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(128, 128, 128);
+  padding-right: 24px;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 
 .logo {
-  color: white;
+  height: 60px;
+  width: 40px;
+}
+
+.logo a .logo-img {
+  height: 80%;
+  width: 140%;
+  border-radius: 80px;
 }
 
 #hamburger-icon {
   margin: auto 0;
   cursor: pointer;
   font-size: 32px;
-  color: rgb(255, 255, 255);
+  color: rgb(39, 42, 49);
 }
 
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(39, 42, 49);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -76,10 +145,10 @@ body {
   display: none;
   list-style-type: none;
   position: absolute;
-  top: 30px;
-  right: 0;
+  top: 88px;
+  left: 0;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(128, 128, 128);
   opacity: 0.9;
 }
@@ -99,20 +168,318 @@ body {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
-  color: rgb(255, 255, 255);
+  color: rgb(39, 42, 49);
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  background: url(./images/bg/dark-background.jpg) no-repeat;
+  background-size: cover;
+  padding: 36px 24px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.main1 {
+  font-size: 26px;
+  color: white;
+}
+
+.red-rule {
+  border-bottom: 2px solid rgb(236, 82, 66);
+  width: 50px;
+}
+
+.summit-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border: 2px solid white;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  background-color: rgb(53, 53, 53);
+  opacity: 0.7;
+  padding: 8px;
+}
+
+.card-title {
+  flex: 30%;
+  display: flex;
+  gap: 8px;
+}
+
+.program-img {
+  color: rgb(236, 82, 66);
+}
+
+.title {
+  color: rgb(236, 82, 66);
+  font-size: 18px;
+}
+
+.Opening {
+  flex: 60%;
+  color: white;
+  font-size: 16px;
+}
+
+.red-button {
+  padding: 16px;
+  background-color: rgb(236, 82, 66);
+  color: white;
+  font-size: 16px;
 }
 
 .speaker-img {
-  height: 120px;
-  width: 140px;
+  height: 160px;
+  width: 200px;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.speakers-section {
+  margin: 16px;
+  background-color: rgb(255, 255, 255);
+}
+
+.speakers-section .head {
+  margin-bottom: 16px;
+}
+
+.speakers-section .main1 {
+  color: rgb(39, 42, 49);
+}
+
+.day-speakers {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.speaker-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sp-name {
+  font-size: 18px;
+}
+
+.grey-rule {
+  border-bottom: 2px solid rgb(227, 227, 227);
+  width: 50px;
+}
+
+.who {
+  color: rgb(236, 82, 66);
+  font-size: 12px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.studies {
+  font-size: 12px;
+}
+
+.more {
+  border: 2px solid rgb(53, 53, 53);
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 24px;
+  gap: 20px;
+}
+
+.more1 {
+  font-size: 16px;
+}
+
+.down {
+  color: rgb(236, 82, 66);
+  margin-top: 2px;
+}
+
+/* about page styles mobile version */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.about .text-red .hallo {
+  text-align: center;
+}
+
+.about .text-red h1 {
+  text-align: center;
+}
+
+.about .intro {
+  background-color: white;
+  color: rgb(39, 42, 49);
+  padding: 24px;
+  text-align: center;
+}
+
+.contact {
+  background-color: white;
+  color: rgb(39, 42, 49);
+  font-size: 16px;
+  padding: 24px;
+  text-align: center;
+}
+
+.patners {
+  background-color: rgb(201, 201, 201);
+}
+
+.mypatners {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px;
+}
+
+.summit-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+  justify-self: center;
+  margin-bottom: 40px;
+  padding: 12px;
+}
+
+.summit-logo .studies {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.summit-logo img {
+  margin: 0 auto;
+  width: 80%;
+  height: 160px;
+}
+
+.about .grey-rule {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.about .studies {
+  margin-top: 24px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.overlay {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: rgb(236, 82, 66);  /* fallback for old browsers */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("./images/summit1.avif");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("./images/summit1.avif"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay1 {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: rgb(236, 82, 66);
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("./images/Summit3.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("./images/Summit3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.year {
+  font-size: 26px;
+  color: white;
+}
+
+.patner-img {
+  width: 120px;
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 24px;
+  background-color: white;
+}
+
+.footer .logo {
+  flex: 50%;
+}
+
+.footer .main1 {
+  flex: 50%;
+  font-size: 16px;
+  color: rgb(39, 42, 49);
 }
 
 @media only screen and (min-width: 768px) {
-  #hamburger-icon {
+  .head-container {
     display: none;
   }
 
   .show-on-lg {
     display: block;
+  }
+
+  .header-top {
+    background-color: rgb(39, 42, 49);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 16px;
+    list-style-type: none;
+    padding: 8px;
+  }
+
+  .header-top li {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .fb,
+  .twt {
+    color: white;
+    font-size: 12px;
   }
 }

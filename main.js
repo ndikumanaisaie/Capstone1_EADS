@@ -37,7 +37,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/honorable mutikura.jpg',
+    image: './images/speakers/daniel.jpg',
   },
 
   {
