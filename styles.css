@@ -168,7 +168,7 @@ body {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
-  color: rgb(39, 42, 49);
+  color: white;
 }
 
 .program-container {
@@ -203,7 +203,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  border: 2px solid white;
 }
 
 .program-card {
@@ -244,9 +243,14 @@ body {
   font-size: 16px;
 }
 
+.hull-program {
+  display: none;
+}
+
 .speaker-img {
   height: 160px;
   width: 200px;
+  transition: width 200ms;
 }
 
 .speakers {
@@ -256,7 +260,7 @@ body {
 }
 
 .speakers-section {
-  margin: 16px;
+  padding-top: 24px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -324,6 +328,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: cover;
 }
 
 .about .text-red .hallo {
@@ -339,18 +345,34 @@ body {
   color: rgb(39, 42, 49);
   padding: 24px;
   text-align: center;
+  margin: 16px;
+  border: 2px solid rgb(227, 227, 227);
 }
 
 .contact {
-  background-color: white;
   color: rgb(39, 42, 49);
   font-size: 16px;
   padding: 24px;
   text-align: center;
 }
 
+.bg-white {
+  background-color: rgb(255, 255, 255);
+}
+
+.bg-white .main1 {
+  color: rgb(39, 42, 49);
+}
+
+.logo-about {
+  text-align: center;
+  border: 2px solid rgb(227, 227, 227);
+  padding: 36px;
+}
+
 .patners {
   background-color: rgb(201, 201, 201);
+  padding: 36px;
 }
 
 .mypatners {
@@ -373,7 +395,7 @@ body {
 }
 
 .summit-logo .studies {
-  color: white;
+  color: rgb(39, 42, 49);
   font-size: 16px;
   text-align: center;
 }
@@ -391,7 +413,7 @@ body {
 
 .about .studies {
   margin-top: 24px;
-  color: white;
+  color: rgb(39, 42, 49);
   font-size: 16px;
   text-align: center;
 }
@@ -399,6 +421,7 @@ body {
 .overlay {
   height: 200px;
   width: 100%;
+  margin-bottom: 16px;
   text-align: center;
   padding-top: 100px;
   color: white;
@@ -408,6 +431,10 @@ body {
   background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("./images/summit1.avif"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.overlays {
+  margin: 32px;
 }
 
 .overlay1 {
@@ -429,6 +456,14 @@ body {
   color: white;
 }
 
+.overlay1 .main1 {
+  color: white;
+}
+
+.overlay .main1 {
+  color: white;
+}
+
 .patner-img {
   width: 120px;
   height: 50px;
@@ -437,19 +472,20 @@ body {
 .footer {
   display: flex;
   flex-direction: row;
-  gap: 24px;
-  padding: 24px;
-  background-color: white;
+  gap: 40px;
+  padding: 48px;
+  background-color: rgb(39, 42, 49);
+  margin-top: -10px;
 }
 
 .footer .logo {
-  flex: 50%;
+  flex: 40%;
 }
 
 .footer .main1 {
-  flex: 50%;
+  flex: 60%;
   font-size: 16px;
-  color: rgb(39, 42, 49);
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -481,5 +517,190 @@ body {
   .twt {
     color: white;
     font-size: 12px;
+  }
+
+  .main-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-right: 134px;
+  }
+
+  .main-head {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 40%;
+  }
+
+  .main-head li a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .cursor-pointer {
+    text-align: center;
+    align-self: center;
+    height: 40px;
+    width: 30%;
+  }
+
+  .cursor-pointer img {
+    width: 40%;
+    height: 100%;
+  }
+
+  .compaign {
+    color: rgb(236, 82, 66);
+    padding: 12px;
+    border: 2px solid rgb(236, 82, 66);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 144px;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .home {
+    margin-left: 140px;
+    width: 50%;
+  }
+
+  .text-red {
+    margin-top: 116px;
+  }
+
+  .text-red .hallo {
+    font-size: 36px;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .text-red .h1 {
+    color: rgb(236, 82, 66);
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'COCOGOOSE', sans-serif;
+    letter-spacing: 2px;
+    line-height: 58px;
+  }
+
+  .intro,
+  .rv,
+  .place {
+    font-size: 24px;
+  }
+
+  .summit-program {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(53, 53, 53);
+    opacity: 0.7;
+    padding: 24px;
+  }
+
+  .card-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .Opening {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .red-button {
+    display: none;
+  }
+
+  .hull-program {
+    display: block;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .speakers {
+    display: grid;
+    grid:
+      "A B"
+      "C D"
+      "E F";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .speakers-section {
+    padding: 24px 140px;
+  }
+
+  .about .text-red {
+    margin: 50px auto;
+    width: 60%;
+  }
+
+  .about .text-red .hallo {
+    display: none;
+  }
+
+  .about .intro {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .contact {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .bg-white .main1 {
+    color: rgb(39, 42, 49);
+  }
+
+  .logo-about {
+    margin: 0 auto;
+    width: 60%;
+    padding: 36px;
+  }
+
+  .about .patners {
+    display: none;
+  }
+
+  .overlay .main1 {
+    color: white;
+  }
+
+  .overlay1 .main1 {
+    color: white;
+  }
+
+  .overlays {
+    display: flex;
+    gap: 16px;
   }
 }

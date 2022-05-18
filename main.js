@@ -15,7 +15,7 @@ const speaker = [
 
   {
     id: 1,
-    sp_name: 'Linka adegoke',
+    sp_name: 'erhomo',
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
@@ -24,7 +24,7 @@ const speaker = [
 
   {
     id: 2,
-    sp_name: 'Linka adegoke',
+    sp_name: 'Georgies mgobe',
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
@@ -33,7 +33,7 @@ const speaker = [
 
   {
     id: 3,
-    sp_name: 'Linka adegoke',
+    sp_name: 'daniel',
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
@@ -42,7 +42,7 @@ const speaker = [
 
   {
     id: 4,
-    sp_name: 'Linka adegoke',
+    sp_name: 'prof muyunga',
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
@@ -51,7 +51,7 @@ const speaker = [
 
   {
     id: 5,
-    sp_name: 'Linka adegoke',
+    sp_name: 'Tim-Berners-Lee',
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
