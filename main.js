@@ -77,3 +77,36 @@ for (let j = 0; j < speaker.length; j += 1) {
 </div>`;
 }
 dynamicSeapkers.innerHTML = speakerCard;
+
+const morespeakers = document.createElement('button');
+morespeakers.className = 'morebtn';
+morespeakers.type = 'button';
+morespeakers.innerHTML = 'MORE <i class="chevron down icon"></i>';
+dynamicSeapkers.appendChild(morespeakers);
+
+const speakerCards = Array.from(document.querySelectorAll('.day-speakers'));
+
+speakerCards.forEach((card, index) => {
+  if (index > 1) {
+    card.classList.add('hide');
+  }
+});
+
+const moreBtn = document.querySelector('.morebtn');
+
+const moreBtnText = (card) => {
+  if (card.classList.contains('hide')) {
+    moreBtn.innerHTML = 'MORE <i class="fa-solid fa-angle-down  down"></i>';
+  } else {
+    moreBtn.innerHTML = 'LESS <i class="fa-solid fa-angle-up up"></i>';
+  }
+};
+
+moreBtn.addEventListener('click', () => {
+  speakerCards.forEach((card, index) => {
+    if (index > 1) {
+      card.classList.toggle('hide');
+      moreBtnText(card);
+    }
+  });
+});

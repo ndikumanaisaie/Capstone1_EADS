@@ -278,6 +278,10 @@ body {
   gap: 12px;
 }
 
+.hide {
+  display: none;
+}
+
 .speaker-bio {
   display: flex;
   flex-direction: column;
@@ -304,23 +308,18 @@ body {
   font-size: 12px;
 }
 
-.more {
-  border: 2px solid rgb(53, 53, 53);
-  display: flex;
-  justify-content: center;
-  padding: 16px;
-  border-radius: 8px;
-  margin-top: 24px;
-  gap: 20px;
-}
-
-.more1 {
-  font-size: 16px;
-}
-
+.up,
 .down {
   color: rgb(236, 82, 66);
-  margin-top: 2px;
+}
+
+.morebtn {
+  background-color: white;
+  color: rgb(39, 42, 49);
+  border: 1px solid rgb(39, 42, 49);
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 /* about page styles mobile version */
@@ -652,6 +651,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 24px;
+  }
+
+  .morebtn {
+    display: none;
   }
 
   .speakers-section {

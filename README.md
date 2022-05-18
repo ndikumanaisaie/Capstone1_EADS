@@ -2,8 +2,9 @@
 
 # Capstone project 1
 
-> Hi! My name is NDIKUMANA ISAIE, I am a front end developper. I have experience in HTML5, CSS3 and JAVASCRIPT. Curently
-> a full-time student at microverse to become a FullStack Web developper.
+> This project is about East African Developer Summit that is held each year in East African
+> community. I designed this website to invite people in East africa and around the world to 
+> participate in the summit in order to advance software development in the Horn of africa.
 
 
 ## Built With
@@ -35,6 +36,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - My family, microverse team, coding patners, mentor and code reviewers.
+- I also give credit to the autor of the original design [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/) for creating such a beautiful design.
 
 
 ## 📝 License
