@@ -251,8 +251,8 @@ body {
 }
 
 .speaker-img {
-  height: 140px;
-  width: 160px;
+  height: 120px;
+  width: 140px;
   z-index: 5;
   position: absolute;
 }
@@ -283,6 +283,7 @@ body {
 .day-speakers {
   display: flex;
   flex-direction: row;
+  justify-content: start;
   gap: 12px;
   margin-bottom: 14px;
 }
@@ -295,7 +296,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-left: 170px;
+  margin-left: 150px;
 }
 
 .sp-name {
@@ -311,7 +312,7 @@ body {
   color: rgb(236, 82, 66);
   font-size: 16px;
   font-style: italic;
-  line-height: 24px;
+  line-height: 18px;
 }
 
 .studies {
