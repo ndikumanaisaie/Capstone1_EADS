@@ -241,20 +241,35 @@ body {
   display: none;
 }
 
+.speakers-section {
+  padding-top: 24px;
+  background-color: white;
+}
+
+.sp-img {
+  position: relative;
+}
+
 .speaker-img {
-  height: 160px;
-  width: 200px;
+  height: 140px;
+  width: 160px;
+  z-index: 5;
+  position: absolute;
+}
+
+.chess-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -16px;
+  left: -16px;
 }
 
 .speakers {
   display: flex;
   flex-direction: column;
   gap: 32px;
-}
-
-.speakers-section {
-  padding-top: 24px;
-  background-color: rgb(255, 255, 255);
+  padding: 32px;
 }
 
 .speakers-section .head {
@@ -269,6 +284,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 12px;
+  margin-bottom: 14px;
 }
 
 .hide {
@@ -279,6 +295,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-left: 170px;
 }
 
 .sp-name {
@@ -292,13 +309,13 @@ body {
 
 .who {
   color: rgb(236, 82, 66);
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
   line-height: 24px;
 }
 
 .studies {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .up,
@@ -472,11 +489,12 @@ body {
 }
 
 .footer .logo {
-  flex: 40%;
+  flex: 30%;
+  margin-left: 80px;
 }
 
 .footer .main1 {
-  flex: 60%;
+  flex: 70%;
   font-size: 16px;
   color: rgb(39, 42, 49);
 }
@@ -600,6 +618,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 12px;
+    padding: 60px;
   }
 
   .program-card {
@@ -663,6 +682,7 @@ body {
 
   .speakers-section {
     padding: 24px 140px;
+    background-color: rgb(222, 222, 222);
   }
 
   .about .text-red {

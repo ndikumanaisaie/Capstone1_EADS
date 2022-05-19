@@ -10,7 +10,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/Linka adegoke.png',
+    image: './images/speakers/Yinka-adegoke.jpg',
   },
 
   {
@@ -19,7 +19,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/erhomo.png',
+    image: './images/speakers/vipin.jpg',
   },
 
   {
@@ -28,7 +28,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/George mgobe.png',
+    image: './images/speakers/Georgies mgobe.jpg',
   },
 
   {
@@ -37,7 +37,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/daniel.png',
+    image: './images/speakers/daniel.jpg',
   },
 
   {
@@ -46,7 +46,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/kayode yusuf.png',
+    image: './images/speakers/honorable mutikura.jpg',
   },
 
   {
@@ -55,7 +55,7 @@ const speaker = [
     who: 'Web developper and Web consultant graduate from Microverse online school of programming.',
     studies: `Ndikumana Isaie studied HTML, CSS, JavaScript, ruby on rails, reactJs, github. He has 
     also experience in css frame work like Bootstrap.`,
-    image: './images/speakers/prof muyunga.png',
+    image: './images/speakers/prof muyunga.jpg',
   },
 ];
 
@@ -67,6 +67,7 @@ for (let j = 0; j < speaker.length; j += 1) {
   speakerCard += `
   <div class="day-speakers" id="day-speaker">
   <div class="sp-img">
+    <img src="./images/speakers/chess.jpg" alt="tile image" class="chess-img">
     <img src="${speaker[j].image}" alt="speaker1" class="speaker-img">
   </div>
   <div class="speaker-bio">
