@@ -530,7 +530,7 @@ body {
     justify-content: end;
     gap: 16px;
     list-style-type: none;
-    padding: 8px;
+    padding: 8px 175px 8px 8px;
   }
 
   .header-top li {
