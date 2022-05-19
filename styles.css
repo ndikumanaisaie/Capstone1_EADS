@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   color: rgb(0, 0, 0);
@@ -27,8 +27,8 @@ body {
 }
 
 .main {
-  background: url("./images/bg/mobile_intro_bg.png") no-repeat;
-  background-size: 100vh;
+  background: url("./images/bg/mobile_intro_bg.png") no-repeat center center;
+  background-size: cover;
 }
 
 .text-red {
@@ -195,7 +195,6 @@ body {
 .summit-program {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 12px;
 }
 
@@ -207,6 +206,7 @@ body {
   background-color: rgb(53, 53, 53);
   opacity: 0.7;
   padding: 8px;
+  flex: 1;
 }
 
 .card-title {
@@ -523,7 +523,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    padding-right: 134px;
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .main-head {
@@ -555,10 +556,11 @@ body {
   .compaign {
     color: rgb(236, 82, 66);
     padding: 12px;
-    border: 2px solid rgb(236, 82, 66);
+    border: 4px solid rgb(236, 82, 66);
     background-color: rgb(255, 255, 255);
     font-size: 16px;
-    width: 144px;
+    width: 184px;
+    margin-right: 160px;
   }
 
   .more {
@@ -597,7 +599,6 @@ body {
   .summit-program {
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 12px;
   }
 
@@ -708,5 +709,18 @@ body {
   .overlays {
     display: flex;
     gap: 16px;
+  }
+
+  #about-footer .logo {
+    flex: 30%;
+  }
+
+  #about-footer {
+    background-color: rgb(39, 42, 49);
+    padding-left: 140px;
+  }
+
+  #about-footer .main1 {
+    color: white;
   }
 }
