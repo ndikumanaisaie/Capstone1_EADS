@@ -4,231 +4,174 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">            
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <title>Responsive portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>East African developper summit</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="top-nav" id="top-nav">
-        <div class="logo-placeholder" id="logo">
-          <a href="#"><span class="my-logo">My logo</span></a>
-        </div>
-        <!-- for large screen -->
-        <div class="menu">
-          <a href="#"><span class="my-logo">Portfolio</span></a>
-          <a href="#"><span class="my-logo">About</span></a>
-          <a href="#"><span class="my-logo">Contact</span></a>
-        </div>
-      
-        <!-- for smaller screens -->
-        <div id="hamburger-icon">
-          <div class="bar1 bar"></div>
-          <div class="bar2 bar"></div>
-          <div class="bar3 bar"></div>
-          <ul class="mobile-menu">
-            <li><a href="#work">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    <!-- mobile home section -->
-    <div class="header-background">
-      <h1 class="primary-text">I'm ndikumana <br>Isaie to see you</h1>
-      <p class="primary-text2">
-        I am a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, do not hestiate to contact
-        me.
-      </p>
-      <div class="connect">
-        <p>Let's connect</p>
-      </div>
-      <div class="social-media">
-        <ul>
-          <li>
-            <a href="https://github.com/ndikumanaisaie">
-              <img src="./images/github.svg" alt="github" />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/Ndikuma38670724">
-              <img src="./images/medium.svg" alt="medium" />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/Ndikuma38670724">
-              <img src="./images/twitter.svg" alt="twitter" />
-            </a>
-          </li>
-          <li>
-            <a href="vector">
-              <img src="./images/Vector.svg" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/ndikumana-isaie-21166273/">
-              <img src="./images/Linkedin.svg" alt="linkedIn" />
-            </a>
-          </li>
-        </ul>
+    <div class="main">
+      <div class="bg-color">
+        <header class="text-white font-lato">
+          <div class="hide-on-sm show-on-lg ">
+            <div class="bg-gray-color flex items-center">
+              <nav class="subHeaderStyle">
+                <ul class="header-top">
+                  <li class="subHeaderListStyle"><i class="fab fa-facebook-f fb"></i></li>
+                  <li class="subHeaderListStyle"><i class="fab fa-twitter twt"></i></li>
+                  <li class="subHeaderListStyle">English</li>
+                  <li class="subHeaderListStyle">My Page</li>
+                  <li class="subHeaderListStyle">Logout</li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header-bottom">
+              <nav class="main-top">
+                <a class="cursor-pointer" href="index.html"><img class="site-logo" src="./images/logo1.png" alt="site logo on header "/></a>
+                <ul class="main-head flex items-center">
+                  <li class="subHeaderListStyle"><a href="about.html" class="no-underline gray-text-color">About</a></li>
+                  <li class="subHeaderListStyle"><a href="#" class="no-underline gray-text-color">Program</a></li>
+                  <li class="subHeaderListStyle"><a href="#" class="no-underline gray-text-color">Join</a></li>
+                  <li class="subHeaderListStyle"><a href="#" class="no-underline gray-text-color">Sponsor</a></li>
+                  <li class="subHeaderListStyle"><a href="#" class="no-underline gray-text-color">News</a></li>
+                </ul>
+                <a href="#" class="compaign">Developer Campaign</a>
+              </nav>
+            </div>
+          </div>
+          <div class="head-container">
+            <div id="hamburger-icon">
+              <div class="bar1 bar"></div>
+              <div class="bar2 bar"></div>
+              <div class="bar3 bar"></div>
+            
+              <ul class="mobile-menu" id="mobile-menu">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#about">Program</a></li>
+                <li><a href="#contact">Join</a></li>
+                <li><a href="#about">Sponsor</a></li>
+                <li><a href="#contact">news</a></li>
+              </ul>
+            </div>
+            <div class="logo">
+              <a href="index.html"><img src="./images/logo1.png" class="logo-img" alt="developer summit logo"></a>
+            </div>
+          </div>
+        </header>
+  
+        <section class="home" id="home">
+          <div class="text-red">
+            <p class="hallo">"Hallo! Sharing World"</p>
+            <h1 class="h1">EAST AFRICAN DEVELOPER SUMMIT 2022</h1>
+          </div>
+         
+          <p class="intro">An opportunity for developpers, web designers, consultant, educator,
+             academics and businesses to share thought on how to advance web accessibility to everyone in East Africa
+          </p>
+          <h2 class="rv">20.07.2022(WED) ~ 12(FRI)</h2>
+          <p class="place">@ Palais des art, Boulevard de l'UPRONA, BUJUMBURA-BURUNDI</p>
+        </section>
       </div>
     </div>
-  </header>
-    <!-- end of mobile home section -->
-
-    <!-- work section for desktop version -->
-    <section class="work1" id="work1">
-      
-    </section>
-    <!-- End of work section for desktop version -->
-    <section id="work" class="work">
-    </section>
-    <!-- about section for mobile version -->
-    <section id="about" class="about">
-      <div class="top">
-        <h2 class="h2">About Myself</h2>
-        <div class="primary1">
-          <p>
-            Hello I am a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, do not
-            hesitate to contact me.
+    
+    <section class="program-container">
+      <div class="head">
+        <p class="main1">Main Program</p>
+        <div class="red-rule"></div>
+      </div>
+      <div class="summit-program">
+        <div class="program-card">
+          <div class="card-title">
+            <i class="fa-solid fa-person-chalkboard fa-4x program-img"></i>
+            <p class="title">Speaches</p>
+          </div>
+          <p class="Opening">Listen to the opening speak of software specialists from different East African Countries.
           </p>
         </div>
-        <div class="connect">
-          <p>LET US CONNECT</p>
-        </div>
-        <div class="social-media">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="./images/github.svg" alt="github" />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/ndikumanaisaie">
-                <img src="./images/medium.svg" alt="medium" />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/Ndikuma38670724">
-                <img src="./images/twitter.svg" alt="twitter" />
-              </a>
-            </li>
-            <li>
-              <a href="mailTo:ndikumanaisaie@gmail.com">
-                <img src="./images/Vector.svg" alt="vection" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/ndikumana-isaie-21166273/">
-                <img src="./images/Linkedin.svg" alt="linkedIn" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <p class="action">Get my Resume</p>
-      </div>
-      <div class="skill-list">
-        <div class="frame12">
-          <div class="language">
-            <span class="text">Languages</span>
-            <span class="down-angle"><i class="fa-solid fa-angle-down"></i></span>
+
+        <div class="program-card">
+          <div class="card-title">
+            <i class="fa-solid fa-laptop-code fa-4x program-img"></i>
+            <p class="title">Lectures</p>
           </div>
-          <ul>
-            <li>
-              <div class="language-list">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <img src="./images/js.png" alt="javaScript" /><span
-                        >javaScript</span
-                      >
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="./images/html.png" alt="html" /><span
-                        >HTML</span
-                      ></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="./images/css.png" alt="css" /><span>CSS</span></a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="my-work">
-              <span>Frameworks</span>
-              <span class="greater-than"><i class="fa-solid fa-angle-right"></i></span>
-            </li>
-            <li class="my-work1">
-              <span>skills</span>
-              <span class="greater-than"><i class="fa-solid fa-angle-right"></i></span>
-            </li>
-          </ul>
+          <p class="Opening">Apreciate different work done by web developpers and software engineers from the horn of Africa.
+          </p>
         </div>
+
+        <div class="program-card">
+          <div class="card-title">
+            <i class="fa-solid fa-comments fa-4x program-img"></i>
+            <p class="title">Exibition</p>
+          </div>
+          <p class="Opening">
+            Apreciate different work done by web developpers and software engineers from the horn of Africa.
+          </p>
+        </div>
+        <div class="program-card">
+          <div class="card-title">
+            <i class="fa-solid fa-pen-to-square fa-4x program-img"></i>
+            <p class="title">Intelligence</p>
+          </div>
+          <p class="Opening">
+            Apreciate different work done by web developpers and software engineers from the horn of Africa.
+          </p>
+        </div>
+        <div class="program-card">
+          <div class="card-title">
+            <i class="fa-solid fa-circle-nodes fa-4x program-img"></i>
+            <p class="title">Oportunity</p>
+          </div>
+          <p class="Opening">Apreciate different work done by web developpers and software engineers from the horn of Africa.
+          </p>
+        </div>
+      </div>
+      <p class="red-button">Join EAC Developper Summit 2022</p>
+      <p  class="hull-program">SEE THE WHOLE PROGRAM</p>
+    </section>
+    
+    <section class="speakers-section">
+      <div class="head">
+        <p class="main1">Featured Speakers</p>
+        <div class="red-rule"></div>
+      </div>
+      <div class="speakers" id="speakers">
+
       </div>
     </section>
-    <!-- end of about section for mobile version -->
-
-    <!-- Contact section for desktop version -->
-    <footer id="contact" class="contact-section">
-      <div class="contact-me">
-        <h2>contact me</h2>
-        <p>
-          If you have an application you are interested in developing,
-          a feature that you need built or a project that needs coding. 
-          I`d love to help with it 
-        </p>
-        <form action="https://formspree.io/f/mrgjopne" id="form" class="form1" method="POST">
-          <label for="name"></label>
-          <input
-            class="text2"
-            type="text"
-            name="fname"
-            id="name"
-            placeholder="ndikumana isaie"
-            maxlength="30"
-            required
-          />
-          <label for="email"></label>
-          <input
-            class="email"
-            type="email"
-            id="email"
-            name="email"
-            placeholder="ndikumanaisaie@gmail.com"
-            required
-          />
-          <label for="message"></label>
-          <textarea
-            name="message"
-            class="message"
-            id="message"
-            rows="4"
-            cols="50"
-            placeholder="Write your message here"
-            maxlength="500"
-            required
-          ></textarea>
-          <input aria-label="submit" class="submit" name="submit" type="submit" value="Get In Touch" />
-          <span id="error-msg"></span>
-        </form>
-        <div class="bottom-rule">
-        </div>
+    <section class="patners">
+      <div class="head">
+        <p class="main1">Partners</p>
+        <div class="red-rule"></div>
+      </div>
+      <div class="mypatners">
+        <img class="patner-img" src="./images/partners/google.png" alt="google">
+        <img class="patner-img" src="./images/partners/daumkakao.png" alt="daumkakao">
+        <img class="patner-img" src="./images/partners/microsoft.png" alt="microsoft">
+        <img class="patner-img" src="./images/partners/mozilla.png" alt="mozilla">
+        <img class="patner-img" src="./images/partners/airbnb.png" alt="airbnb">
+        <img class="patner-img" src="./images/partners/naver.png" alt="naveer">
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <img class="logo" src="./images/logo1.png" alt="my logo">
+        <p class="main1"> 2022 East African Developper Summit, Bujumbura some rights reserved</p>
       </div>
     </footer>
-    <!-- End of contact section for desktop version and contact mobile section-->
-    <script src="js/index.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
