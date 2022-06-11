@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone project 1
+## East African Developper Summit 2022
 
 > This project is about East African Developer Summit that is held each year in East African
 > community. I designed this website to invite people in East africa and around the world to 
