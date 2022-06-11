@@ -7,6 +7,13 @@
 > participate in the summit in order to advance software development in the Horn of africa.
 
 
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+## To do list
+
+> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+
+
 ## Built With
 
 - html 
