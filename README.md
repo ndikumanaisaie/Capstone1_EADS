@@ -9,10 +9,6 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## To do list
-
-> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
-
 
 ## Built With
 
@@ -23,7 +19,7 @@
 - github flow
 
 ## Live Demo
-- Capstone1: [EAC Developer summit]( https://ndikumanaisaie.github.io/Capstone-Project1/)
+- Capstone1: [EAC Developer summit](https://ndikumanaisaie.github.io/Capstone1_EADS/)
 
 ## Authors
 
